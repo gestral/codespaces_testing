@@ -1,5 +1,8 @@
 <?php
-//1) Calcular la suma de dos valores ingresados por el usuario.
+// 5. Un profesor desea saber el porcentaje varones y mujeres de su clase
+//         sabiendo que tiene N alumnos en total, CV varones y CM mujeres. El
+//         profesor tiene que poder ingresar al programa los valores de N, CV y CM.
+
 $valor1 = $_POST["n1"];
 $valor2 = $_POST["n2"];
 $valor3 = $_POST["n3"];

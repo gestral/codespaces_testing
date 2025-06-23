@@ -1,4 +1,7 @@
 <?php
+// 10. Escribir un programa que permita ingresar dos valores A y B, y que
+//         escriba cuál es el mayor.
+
 $valor1 = $_POST["n1"];
 $valor2 = $_POST["n2"];
 
