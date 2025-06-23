@@ -2,10 +2,10 @@
 // 8. Desarrolle un programa que permita ingresar un valor cualquiera A y
 //         escribir si dicho número es múltiplo de Z = 7.
 
-$valor1 = $_POST["n1"];
+$valorA = $_POST["n1"];
 $valorZ = 7;
 
-if ( $valor2 % $valorZ  == 0 ){
+if ( $valorA % $valorZ  == 0 ){
     echo "El número ingresado es múltiplo de Z.";
 }
 else{

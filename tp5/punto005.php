@@ -3,16 +3,16 @@
 //         sabiendo que tiene N alumnos en total, CV varones y CM mujeres. El
 //         profesor tiene que poder ingresar al programa los valores de N, CV y CM.
 
-$valor1 = $_POST["n1"];
-$valor2 = $_POST["n2"];
-$valor3 = $_POST["n3"];
+$N = $_POST["n1"];
+$CM = $_POST["n2"];
+$CV = $_POST["n3"];
 
-if (($valor2 + $valor3) != $valor1){
+if (($CM + $CV) != $N){
     echo "El total de alumnos es incorrecto.";
 }
 else{
-    $total_alumnos = ($valor3 * 100) / $valor1;
-    $total_alumnas = ($valor2 * 100) / $valor1;
+    $total_alumnos = ($CV * 100) / $N;
+    $total_alumnas = ($CM * 100) / $N;
 
     echo "Porcentaje de alumnos: $total_alumnos% <br>";
     echo "Porcentaje de alumnas: $total_alumnas%";    

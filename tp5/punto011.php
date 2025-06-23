@@ -3,13 +3,13 @@
 //         mostrar “Promocionado” (7 a 10), “Regular” (4 a 6) o “Libre” (menor a 4)
 //         según la nota ingresada.
         
-$valor1 = $_POST["n1"];
+$nota = $_POST["n1"];
 
-if ($valor1 < 4 && $valor1 > 0) {
+if ($nota < 4 && $nota > 0) {
     echo "Libre";
-} elseif ($valor1 < 7 && $valor1 >= 4) {
+} elseif ($nota < 7 && $nota >= 4) {
     echo "Regular";
-} elseif ($valor1 < 10 && $valor1 >= 7) {
+} elseif ($nota < 10 && $nota >= 7) {
     echo "Promocionado";
 }
 

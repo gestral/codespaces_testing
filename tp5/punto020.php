@@ -3,13 +3,13 @@
 //         usuario, mostrarlo N veces seguidas, tanto el nombre como su repetición.
 //         Por Ej: Ana 1, Ana 2, Ana 3…; con un ciclo WHILE.
 
-$valor1 = $_POST["n1"];
-$valor2 = $_POST["n2"];
+$nombre = $_POST["n1"];
+$N = $_POST["n2"];
 $i = 1;
 
-while ($i <= $valor2) {
+while ($i <= $N) {
 
-    echo $valor1 . " " . $i . "<br>";
+    echo $nombre . " " . $i . "<br>";
     $i++;
 
 }

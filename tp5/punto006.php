@@ -3,9 +3,9 @@
 //         persona y luego mostrar “Eres mayor de edad” (18 o más) o “Eres menor
 //         de edad” (menor a 18) según la edad ingresada.
 
-$valor1 = $_POST["n1"];
+$edad = $_POST["n1"];
 
-if ( $valor1 >= 18 ){
+if ( $edad >= 18 ){
     echo "Es mayor de edad, puede ingresar.";
 }
 else{

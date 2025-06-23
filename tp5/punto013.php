@@ -2,16 +2,16 @@
 // 13. Desarrolle un programa que permita leer tres valores A, B y C y luego
 //         indique el menor de ellos.
 
-$valor1 = $_POST["n1"];
-$valor2 = $_POST["n2"];
-$valor3 = $_POST["n3"];
+$A = $_POST["n1"];
+$B = $_POST["n2"];
+$C = $_POST["n3"];
 
-$menor = $valor1;
-if ($valor2 < $menor) {
-    $menor = $valor2;
+$menor = $A;
+if ($B < $menor) {
+    $menor = $B;
 }
-if ($valor3 < $menor) {
-    $menor = $valor3;
+if ($C < $menor) {
+    $menor = $C;
 }
 echo "El menor de los tres números es: $menor";
 ?>
